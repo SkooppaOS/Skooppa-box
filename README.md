@@ -2,6 +2,8 @@
 
 A vagrant box (created by [Puphpet.com](https://puphpet.com/)) to get up a running fast for developing a [Skooppa Server Environment](http://skooppa.com) and working with [appserver](http://appserver.io/) and [OrientDB](https://orientdb.com).
 
+**NOTE:** This is only experimental and temporary. As the Skooppa PaaS is finalized, this will no longer be the proper means of development. Development will take place completely in the cloud. At least, that is the plan. Who knows, if it will stay that way. 
+
 ###What Do You Get?
 
 
@@ -69,9 +71,9 @@ You can also customize the box too, if you'd like. Under `/puphpet` copy the `co
 
 **Host File Changes**
 
-If you want, you can also change your host file on the host machine, so you can access the `spider-box`via a normal URL like `http://www.spider-box.dev`. Search for your `hosts`file and save the following.
+If you want, you can also change your host file on the host machine, so you can access the `skooppa-box`via a normal URL like `http://www.skooppa-box.dev`. Search for your `hosts`file and save the following.
 
-`192.168.33.10 spider-box.dev www.spider-box.dev`
+`192.168.33.10 skooppa-box.dev www.skooppa-box.dev`
 
 
 
