@@ -2,7 +2,7 @@
 echo "------------ RUNNING STARTUP COMMANDS -------------"
 
 ### Set variables
-export ORIENT_VERSION="2.1.7"
+export ORIENT_VERSION="2.1.10"
 
 export INSTALL_DIR="/home/vagrant"
 export VAGRANT_DIR="/vagrant"
