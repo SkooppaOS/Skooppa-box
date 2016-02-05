@@ -3,7 +3,7 @@ echo "------------ START SYSTEM BOOTSTRAP ------------"
 
 ### set up necessary variables
 
-export ORIENT_VERSION="2.1.6"
+export ORIENT_VERSION="2.1.10"
 
 export INSTALL_DIR="/home/vagrant"
 export VAGRANT_DIR="/vagrant"

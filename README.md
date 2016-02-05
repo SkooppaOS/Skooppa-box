@@ -9,7 +9,7 @@ A vagrant box (created by [Puphpet.com](https://puphpet.com/)) to get up a runni
 
 Skooppa-box installs the following software automatically on the guest VM.
 
-- OrientDB 2.1.7
+- OrientDB 2.1.10
 - appserver 1.1.0
 - PHP5.6 (PHP-FPM and CLI)
 - Debian Wheezy 64bit
@@ -41,9 +41,10 @@ Once you get the Puphpet "finished" screen in your console, you can log into the
 
 The user you'll be using is "root". 
 
-The server can be found under the IP address `192.168.33.10`. 
-
-For those developing for Spider, once in `spider-box` (the guest VM), you can now clone the Spider repo of choice and start working on it. The shared folder is under `/var/www/'.
+The web server in the host browser can be found under the IP address `192.168.33.10`. 
+```
+http://192.168.33.10
+``` 
 
 **Working with the Graph Database**
 
@@ -57,7 +58,7 @@ Also under '/home/vagrant/` you'll find the install directories for the database
 
 **Other providers**(currently untested!)
 
-VirtualBox is currently the standard virtualization system for the Guest VM. If you have a different System `spider-box` supports both Parallels and VMWare Fusion. To use these, enter the `--provider`flag, when you use `vagrant up`, like this.
+VirtualBox is currently the standard virtualization system for the Guest VM. If you have a different System `Skooppa-box` supports both Parallels and VMWare Fusion. To use these, enter the `--provider`flag, when you use `vagrant up`, like this.
 
 `vagrant up --provider parallels`
 
@@ -67,7 +68,7 @@ All the initialization and startup files are located under `/puphet/files`. The 
 
 **Custom Configuration of the Vagrant Box**
 
-You can also customize the box too, if you'd like. Under `/puphpet` copy the `config.yaml`file and rename it to `config-custom.yaml` and save it in the same place. Make any changes you'd like in that file. There are also more possibilities to customize the `spider-box` through the tools made available by Puphpet. To read more about that visit the [Puphpet website](https://puphpet.com/) (click on "Help!").
+You can also customize the box too, if you'd like. Under `/puphpet` copy the `config.yaml`file and rename it to `config-custom.yaml` and save it in the same place. Make any changes you'd like in that file. There are also more possibilities to customize the `Skooppa-box` through the tools made available by Puphpet. To read more about that visit the [Puphpet website](https://puphpet.com/) (click on "Help!").
 
 **Host File Changes**
 
