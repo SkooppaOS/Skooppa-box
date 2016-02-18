@@ -5,7 +5,7 @@ echo "------------ INSTALL ORIENTDB START -----------"
 
 ### install orientdb
 
-export ORIENT_VERSION="2.1.10"
+export ORIENT_VERSION="2.1.11"
 
 export INSTALL_DIR="/home/vagrant"
 export VAGRANT_DIR="/vagrant"

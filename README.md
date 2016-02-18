@@ -9,7 +9,7 @@ A vagrant box (created by [Puphpet.com](https://puphpet.com/)) to get up a runni
 
 Skooppa-box installs the following software automatically on the guest VM.
 
-- OrientDB 2.1.10
+- OrientDB 2.1.11
 - appserver 1.1.0
 - PHP5.6 (PHP-FPM and CLI)
 - Debian Wheezy 64bit
